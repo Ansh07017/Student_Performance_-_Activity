@@ -1,5 +1,5 @@
 # Student Lifestyle & Performance — Predictive Studio
-
+Dynamic Link: https://studentperformanceandactivity.streamlit.app/ 
 A fully interactive Streamlit app for exploratory data analysis and machine learning predictive modeling on student lifestyle datasets. Build regression models (CGPA prediction) and classification models (Stress level detection) with full model evaluation, interpretability, and export capabilities.
 
 ## Features
