@@ -70,7 +70,7 @@ A fully interactive Streamlit app for exploratory data analysis and machine lear
 
 ---
 
-## Installation
+### Installation
 
 ### Prerequisites
 - Python 3.8+
