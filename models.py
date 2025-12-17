@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load preprocessed data
+# Load processed data
 df = pd.read_csv("preprocessed_student_lifestyle_dataset.csv")
 #then linear regression to check
 print(df.head())
