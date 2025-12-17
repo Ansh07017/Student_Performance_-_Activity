@@ -11,6 +11,8 @@ Notes:
 - Assumes `student_lifestyle_dataset.csv` (or `preprocessed_student_lifestyle_dataset.csv`) exists
   in the same folder. If not found, the app will show a placeholder sample dataset.
 """
+import warnings
+warnings.filterwarnings("ignore")
 import os
 import io
 import base64
