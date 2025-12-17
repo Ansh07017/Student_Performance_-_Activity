@@ -5,6 +5,7 @@ import seaborn as sns
 import sklearn.preprocessing as Standardscalar
 
 df=pd.read_csv("student_lifestyle_dataset.csv")
+#new comment
 print(df.head())
 print(df.info())
 print(df.describe())
