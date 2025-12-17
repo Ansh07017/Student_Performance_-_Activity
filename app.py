@@ -10,7 +10,7 @@ Notes:
 - Designed to run with `streamlit run app.py`.
 - Assumes `student_lifestyle_dataset.csv` (or `preprocessed_student_lifestyle_dataset.csv`) exists
   in the same folder. If not found, the app will show a placeholder sample dataset.
-
+-loading data is possible
 """
 import warnings
 warnings.filterwarnings("ignore")
