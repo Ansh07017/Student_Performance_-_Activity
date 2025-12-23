@@ -33,7 +33,10 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_squared_error, r2_score, classification_report, confusion_matrix, roc_curve, auc, precision_recall_curve
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import GridSearchCV
-
+try: 
+  import shap SHAP_AVAILABLE = True 
+except Exception: SHAP_AVAILABLE = False 
+# -----------------------------
 # Assets (recommendations)
 # -----------------------------
 BACKGROUND_IMAGE = (
