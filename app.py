@@ -305,8 +305,8 @@ if page == "📈 Overview & EDA":
         sel_stress = st.multiselect("Stress_Level", options=df["Stress_Level"].unique().tolist(), default=df["Stress_Level"].unique().tolist())
         
         # Handle optional Study_Category column
-        #study_cat_opts = df["Study_Category"].unique().tolist() if "Study_Category" in df.columns else []
-        #sel_study = st.multiselect("Study_Category", options=study_cat_opts, default=study_cat_opts)
+        study_cat_opts = df["Study_Category"].unique().tolist() if "Study_Category" in df.columns else []
+        sel_study = st.multiselect("Study_Category", options=study_cat_opts, default=study_cat_opts)
         
         sleep_min, sleep_max = st.slider("Sleep Hours Range", float(df["Sleep_Hours_Per_Day"].min()), float(df["Sleep_Hours_Per_Day"].max()), (float(df["Sleep_Hours_Per_Day"].min()), float(df["Sleep_Hours_Per_Day"].max())))
         gpa_min, gpa_max = st.slider("GPA Range", float(df["GPA"].min()), float(df["GPA"].max()), (float(df["GPA"].min()), float(df["GPA"].max())))
