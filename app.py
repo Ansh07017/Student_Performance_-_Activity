@@ -34,8 +34,10 @@ from sklearn.metrics import mean_squared_error, r2_score, classification_report,
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import GridSearchCV
 try: 
-  import shap SHAP_AVAILABLE = True 
-except Exception: SHAP_AVAILABLE = False 
+  import shap
+  SHAP_AVAILABLE = True 
+except Exception: 
+  SHAP_AVAILABLE = False 
 # -----------------------------
 # Assets (recommendations)
 # -----------------------------
